@@ -16,59 +16,9 @@
 	<description>MSSC Beer Inventory Service</description>
 
 	<dependencies>
-		<dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>${jaxb.version}</version>
-        </dependency>
         <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-core</artifactId>
-            <version>${jaxb.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-impl</artifactId>
-            <version>${jaxb.version}</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
     </dependencies>
-<!-- 	<repositories> -->
-<!-- 		<repository> -->
-<!-- 			<snapshots> -->
-<!-- 				<enabled>false</enabled> -->
-<!-- 			</snapshots> -->
-<!-- 			<id>central</id> -->
-<!-- 			<name>libs-release</name> -->
-<!-- 			<url>https://dcsartifacts.dell.com/artifactory/libs-release</url> -->
-<!-- 		</repository> -->
-<!-- 		<repository> -->
-<!-- 			<snapshots> -->
-<!-- 				<enabled>true</enabled> -->
-<!-- 			</snapshots> -->
-
-<!-- 			<id>snapshots</id> -->
-<!-- 			<name>libs-snapshot</name> -->
-<!-- 			<url>https://dcsartifacts.dell.com/artifactory/libs-snapshot</url> -->
-<!-- 		</repository> -->
-<!-- 	</repositories> -->
-<!-- 	<pluginRepositories> -->
-<!-- 		<pluginRepository> -->
-<!-- 			<snapshots> -->
-<!-- 				<enabled>false</enabled> -->
-<!-- 			</snapshots> -->
-<!-- 			<id>central</id> -->
-<!-- 			<name>plugins-release</name> -->
-<!-- 			<url>https://dcsartifacts.dell.com/artifactory/plugins-release</url> -->
-<!-- 		</pluginRepository> -->
-<!-- 		<pluginRepository> -->
-<!-- 			<snapshots> -->
-<!-- 				<enabled>true</enabled> -->
-<!-- 			</snapshots> -->
-<!-- 			<id>snapshots</id> -->
-<!-- 			<name>plugins-snapshot</name> -->
-<!-- 			<url>https://dcsartifacts.dell.com/artifactory/plugins-snapshot</url> -->
-<!-- 		</pluginRepository> -->
-<!-- 	</pluginRepositories> -->
-	
-
 </project>
